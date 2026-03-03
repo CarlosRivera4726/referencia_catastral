@@ -1,3 +1,5 @@
 .env
 node_modules
 descargas
+drivers/chrome-win64
+drivers/chrome-win64.zip

@@ -1,0 +1,5 @@
+// Reminder: Download the ChromeDriver (or the appropriate driver for your chosen browser) 
+// and ensure it's in your PATH so the application can launch the browser correctly.
+
+// Recordatorio: Descarga ChromeDriver (o el controlador correspondiente para tu navegador elegido)
+// y asegúrate de que esté en tu PATH para que la aplicación pueda iniciar el navegador correctamente.
