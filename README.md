@@ -80,7 +80,7 @@ Si estás usando este proyecto para aprender, presta atención a estos puntos cl
 3.  **⚠️ Nota sobre la Selección de Resultados**:
     Actualmente, el código busca un resultado específico en la línea 41:
     ```javascript
-    By.xpath("//*[contains(text(), '010701620033901')]");
+    By.xpath(`//*[contains(text(), '${process.env.REF_CATRASTAL}')]`),
     ```
     Si deseas que el script seleccione dinámicamente cualquier resultado basado en tu variable de entorno, podrías modificar esa línea para usar `process.env.REF_CATRASTAL`.
 
